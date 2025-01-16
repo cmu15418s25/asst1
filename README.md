@@ -1,0 +1,2 @@
+# asst1
+This is the starter code for Assignment 1 of CMU class 15-418/618, Spring 2025
