@@ -5,8 +5,8 @@ FILES= prog1_mandelbrot_threads/mandelbrot.cpp \
 	prog4_sqrt/data.cpp \
 	prog5_saxpy/saxpyStreaming.cpp
 
-handin.tar: $(FILES)
-	tar cvf handin.tar $(FILES)
+handin.tgz: $(FILES)
+	tar cvzf handin.tgz $(FILES)
 
 clean:
 	(cd prog1_mandelbrot_threads; make clean)
@@ -14,4 +14,4 @@ clean:
 	(cd prog3_mandelbrot_ispc; make clean)
 	(cd prog4_sqrt; make clean)
 	(cd prog5_saxpy; make clean)
-	rm -f *~ handin.tar
+	rm -f *~ handin.tgz
